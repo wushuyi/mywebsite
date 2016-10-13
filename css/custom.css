@@ -1,0 +1,61 @@
+/* Add here all your CSS customizations */
+#header .header-body {
+    min-height: 0;
+}
+
+.page-header {
+    padding: 10px 0;
+}
+
+.page-header h1 {
+    padding: 0 0 12px;
+}
+#company .owl-item img{
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#company .mt-sm{
+    text-align: center;
+}
+@media (min-width: 992px) {
+    #header .header-nav-main {
+        float: left;
+    }
+    #header .header-nav-main .nav-pills>li{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    #header .header-column .header-row {
+        position: relative;
+        top: 18px;
+    }
+    #header .header-social-icons{
+        margin: 4px 0 0 10px;
+    }
+    #header .header-btn-collapse-nav{
+        top: -10px;
+        position: relative;
+    }
+}
+
+@media (max-width: 479px) {
+    article.post-large {
+        margin-left: 0;
+    }
+
+    article.post .post-date {
+        margin-left: auto;
+        float: none;;
+    }
+
+    .recent-posts .date .month, article.post .post-date .month {
+        display: block;
+    }
+
+    article.post-large .post-image, article.post-large .post-date {
+        margin-left: auto;
+    }
+}
